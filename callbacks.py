@@ -1,4 +1,5 @@
-from fastai.conv_learner import *
+# from fastai.conv_learner import *
+from fastai.callback import Callback
 
 
 class LogResults(Callback):
